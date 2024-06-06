@@ -25,7 +25,7 @@ Replacement).
 } else {
   client = new MongoClient(uri, options)
   clientPromise = client.connect()
-  console.log("Database Connection Successful!!!")
+  console.log("Database Connection Successfull!!!")
 }
 
 export default clientPromise
