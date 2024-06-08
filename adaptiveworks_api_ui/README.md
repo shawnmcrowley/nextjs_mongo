@@ -34,7 +34,7 @@ npm run dev
 
 ```
 
-Open [http://localhost:3000/adaptiveWorks](http://localhost:3000/adaptiveWorks) with your browser to see the result.
+Open [http://localhost:3000/adaptiveworks](http://localhost:3000/adaptiveworks) with your browser to see the result.
 
 
 ## Deploy on Vercel
