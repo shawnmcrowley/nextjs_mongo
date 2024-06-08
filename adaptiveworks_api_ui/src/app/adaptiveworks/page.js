@@ -73,7 +73,7 @@ const Tabs = () => {
               <a
                 className={
                   "text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal " +
-                  (openTab === 3
+                  (openTab === 4
                     ? "text-white bg-blueGray-600"
                     : "text-blueGray-600 bg-white")
                 }
@@ -123,7 +123,7 @@ const Tabs = () => {
                     without functional solutions.
                   </p>
                 </div>
-                <div className={openTab === 4 ? "block" : "hidden"} id="link1">
+                <div className={openTab === 4 ? "block" : "hidden"} id="link4">
                   <p>
                     Insert Image for Agile Process Layout
                   </p>
