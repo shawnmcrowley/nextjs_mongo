@@ -29,7 +29,7 @@ npm run dev
 
 ```
 
-Open [http://localhost:3000/AdaptiveWorks.js](http://localhost:3000/AdaptiveWorks.js) with your browser to see the result.
+Open [http://localhost:3000/AdaptiveWorks](http://localhost:3000/AdaptiveWorks) with your browser to see the result.
 
 
 ## Deploy on Vercel

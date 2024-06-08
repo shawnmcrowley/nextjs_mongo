@@ -28,7 +28,7 @@ const Tabs = () => {
                 href="#link1"
                 role="tablist"
               >
-                <i className="fas fa-space-shuttle text-base mr-1"></i> Profile
+                <i className="fas fa-space-shuttle text-base mr-1"></i> Sync with Adaptive Works
               </a>
             </li>
             <li className="-mb-px mr-2 last:mr-0 flex-auto text-center">
@@ -47,7 +47,7 @@ const Tabs = () => {
                 href="#link2"
                 role="tablist"
               >
-                <i className="fas fa-cog text-base mr-1"></i>  Settings
+                <i className="fas fa-cog text-base mr-1"></i>  Sync with Staging
               </a>
             </li>
             <li className="-mb-px mr-2 last:mr-0 flex-auto text-center">
@@ -66,7 +66,26 @@ const Tabs = () => {
                 href="#link3"
                 role="tablist"
               >
-                <i className="fas fa-briefcase text-base mr-1"></i>  Options
+                <i className="fas fa-briefcase text-base mr-1"></i>  Sync with SnowFlake
+              </a>
+            </li>
+            <li className="-mb-px mr-2 last:mr-0 flex-auto text-center">
+              <a
+                className={
+                  "text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal " +
+                  (openTab === 3
+                    ? "text-white bg-blueGray-600"
+                    : "text-blueGray-600 bg-white")
+                }
+                onClick={e => {
+                  e.preventDefault();
+                  setOpenTab(4);
+                }}
+                data-toggle="tab"
+                href="#link4"
+                role="tablist"
+              >
+                <i className="fas fa-briefcase text-base mr-1"></i>  DevOps Process
               </a>
             </li>
           </ul>
@@ -102,6 +121,11 @@ const Tabs = () => {
                     <br />
                     <br /> Dramatically maintain clicks-and-mortar solutions
                     without functional solutions.
+                  </p>
+                </div>
+                <div className={openTab === 4 ? "block" : "hidden"} id="link1">
+                  <p>
+                    Insert Image for Agile Process Layout
                   </p>
                 </div>
               </div>
