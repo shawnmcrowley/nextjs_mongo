@@ -1,5 +1,5 @@
 
-## Getting Started will update by Shawn M. Crowley
+## Getting Started: Version 1.0  by Shawn M. Crowley
 
 ## Design Goals
 
