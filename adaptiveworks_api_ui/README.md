@@ -26,7 +26,8 @@
 1. <strike>Fix FS Tab Images</strike>
 2. Add Header and & Footer and make page specific layout
 3. Create DockerFile for Application Build and Automation
-
+4. Fix Transition Screen Glitch
+5. Include a manifest.json file in this project for PWA Availability and add a Service Worker
 
 First, run the development server:
 
