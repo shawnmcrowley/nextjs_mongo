@@ -1,6 +1,8 @@
 "use client"
 
 import React from "react";
+import { faSpaceShuttle } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Tabs = () => {
   const [openTab, setOpenTab] = React.useState(1);
@@ -28,7 +30,7 @@ const Tabs = () => {
                 href="#link1"
                 role="tablist"
               >
-                <i className="fas fa-space-shuttle text-base mr-1"></i> Sync with Adaptive Works
+                <i className="fa fa-space-shuttle text-base mr-1"></i> Sync with Adaptive Works
               </a>
             </li>
             <li className="-mb-px mr-2 last:mr-0 flex-auto text-center">
