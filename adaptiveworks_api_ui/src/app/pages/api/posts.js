@@ -17,6 +17,9 @@ export default async function handler(req, res) {
       break;
   }
 }
+
+// This does not belong here....
+
 export async function getServerSideProps(context) {
   let res = await fetch("http://localhost:3000/api/posts", {
     method: "GET",

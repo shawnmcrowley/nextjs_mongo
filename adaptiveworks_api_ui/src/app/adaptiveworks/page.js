@@ -85,7 +85,7 @@ const Tabs = () => {
                 href="#link4"
                 role="tablist"
               >
-                <i className="fas fa-briefcase text-base mr-1"></i>  DevOps Process
+                <i className="fas fa-briefcase text-base mr-1"></i> Comparison View
               </a>
             </li>
           </ul>

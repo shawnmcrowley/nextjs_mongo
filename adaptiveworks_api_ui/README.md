@@ -25,6 +25,7 @@
 ## To Do
 1. Fix FS Tab Images
 2. Add Header and & Footer and make page specific layout
+3. Create DockerFile for Application Build and Automation
 
 
 First, run the development server:
