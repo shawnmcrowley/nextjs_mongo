@@ -23,7 +23,7 @@
 2. Evaluate API push directly to a SnowFlake Warehouse for Power BI reporting and remove NoSQL
 
 ## To Do
-1. Fix FS Tab Images
+1. <strike>Fix FS Tab Images</strike>
 2. Add Header and & Footer and make page specific layout
 3. Create DockerFile for Application Build and Automation
 

@@ -1,7 +1,7 @@
 "use client"
 
 import React from "react";
-import { faSpaceShuttle } from "@fortawesome/free-solid-svg-icons";
+import {faSatelliteDish, faDatabase, faSnowflake, faDice} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Tabs = () => {
@@ -30,7 +30,7 @@ const Tabs = () => {
                 href="#link1"
                 role="tablist"
               >
-                <i className="fa fa-space-shuttle text-base mr-1"></i> Sync with Adaptive Works
+                <FontAwesomeIcon icon={faSatelliteDish}/> Sync with Adaptive Works
               </a>
             </li>
             <li className="-mb-px mr-2 last:mr-0 flex-auto text-center">
@@ -49,7 +49,7 @@ const Tabs = () => {
                 href="#link2"
                 role="tablist"
               >
-                <i className="fas fa-cog text-base mr-1"></i>  Sync with Staging
+                <FontAwesomeIcon icon={faDatabase}/>  Sync with Staging
               </a>
             </li>
             <li className="-mb-px mr-2 last:mr-0 flex-auto text-center">
@@ -68,7 +68,7 @@ const Tabs = () => {
                 href="#link3"
                 role="tablist"
               >
-                <i className="fas fa-briefcase text-base mr-1"></i>  Sync with SnowFlake
+                <FontAwesomeIcon icon={faSnowflake}/>  Sync with SnowFlake
               </a>
             </li>
             <li className="-mb-px mr-2 last:mr-0 flex-auto text-center">
@@ -87,7 +87,8 @@ const Tabs = () => {
                 href="#link4"
                 role="tablist"
               >
-                <i className="fas fa-briefcase text-base mr-1"></i> Comparison View
+                <FontAwesomeIcon icon={faDice}/> Comparison View
+                
               </a>
             </li>
           </ul>
