@@ -19,16 +19,19 @@
 5. Containerization
 
 ## Next Steps
+
 1. Testing Power BI ability to query API's Directly or NoSQL Directly for it's reporting needs
 2. Evaluate API push directly to a SnowFlake Warehouse for Power BI reporting and remove NoSQL
 
 ## To Do
+
 1. <strike>Fix FS Tab Images</strike>
 2. Add Header and Footer and make page specific layout
 3. <strike>Create DockerFile for Application Build and Automation</strike>
 4. Fix Transition Screen Glitch
 5. Include a manifest.json file in this project for PWA Availability and add a Service Worker
 6. Add to GitHub Actions for Auto Build and CI/CD
+7. Add Toasts and Loading Spinner
 
 First, run the development server:
 
