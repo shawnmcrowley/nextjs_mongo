@@ -1,3 +1,5 @@
+
+const Milestone = [
 {
     "typeName": "Milestone",
     "fields": [
@@ -27,4 +29,6 @@
         }],
     "paging": {"limit": 50}
     }
- 
+]
+
+export default Milestone;
