@@ -24,10 +24,11 @@
 
 ## To Do
 1. <strike>Fix FS Tab Images</strike>
-2. Add Header and & Footer and make page specific layout
-3. Create DockerFile for Application Build and Automation
+2. Add Header and Footer and make page specific layout
+3. <strike>Create DockerFile for Application Build and Automation</strike>
 4. Fix Transition Screen Glitch
 5. Include a manifest.json file in this project for PWA Availability and add a Service Worker
+6. Add to GitHub Actions for Auto Build and CI/CD
 
 First, run the development server:
 
