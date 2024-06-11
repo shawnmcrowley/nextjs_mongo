@@ -1,7 +1,7 @@
 //import Milestone from "@/app/resources/milestone";
 
-export async function getServerSideProps(context) {
-    let res = await fetch("https://api.clarizentb.com/v2.0/services//data/entityQuery", {
+export async function getAdaptviewWorks() {
+    const res = await fetch("https://api.clarizentb.com/v2.0/services//data/entityQuery", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -40,10 +40,17 @@ export async function getServerSideProps(context) {
 
       
     });
-    let allEntities = await res.json();
+    const allEntities = res.json();
   console.log (allEntities);
     return {
-        allEntities
-    };
+        props: {allEntities }
+    }
   }
-  getServerSideProps(context);
+
+    export default function getAdaptiveWorks ({allEntities}) {
+      return(
+        <>
+        <div>{allEntities.Project}</div>
+        </>
+      )
+    }

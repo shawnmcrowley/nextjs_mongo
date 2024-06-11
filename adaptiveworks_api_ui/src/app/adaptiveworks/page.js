@@ -3,7 +3,7 @@
 import React from "react";
 import {faSatelliteDish, faDatabase, faSnowflake, faDice} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Card from "./cards";
+import Card from "../components/cards";
 
 const Tabs = () => {
   const [openTab, setOpenTab] = React.useState(1);
