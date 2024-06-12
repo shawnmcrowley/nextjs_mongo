@@ -1,4 +1,5 @@
 import Card from "@/app/components/cards";
+import Layout from "@/app/adaptiveworks/layout";
 
 export default function Home({ allEntities }) {
 	return (
