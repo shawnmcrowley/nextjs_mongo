@@ -1,5 +1,5 @@
 import Milestone from "@/app/resources/milestone";
-
+import logger from "@/app/logger";
 
 export async function GET() {
 
@@ -62,6 +62,7 @@ export async function POST() {
    const res = await fetch("https://api.clarizentb.com/v2.0/services//data/entityQuery", requestOptions)
    const data = await res.json()
    console.log(data)
+   logger.info("Successfully call AdaptiveWorks API")
    return Response.json(data)
 
 

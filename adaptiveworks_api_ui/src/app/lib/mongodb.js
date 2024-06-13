@@ -1,12 +1,10 @@
-// mongodb.js
+// Connection Library for MongoDB
 
 import { MongoClient } from 'mongodb'
+import logger from '../logger'
 
 const uri = process.env.MONGODB_URI
-const options = {
-  useUnifiedTopology: true,
-  useNewUrlParser: true,
-}
+
 
 let client
 let clientPromise
@@ -15,17 +13,8 @@ if (!process.env.MONGODB_URI) {
   throw new Error('Add Mongo URI to .env.local')
 }
 
-if (process.env.NODE_ENV === 'development') {
-Replacement).
-  if (!global._mongoClientPromise) {
-    client = new MongoClient(uri, options)
-    global._mongoClientPromise = client.connect()
-  }
-  clientPromise = global._mongoClientPromise
-} else {
-  client = new MongoClient(uri, options)
+  client = new MongoClient(uri)
   clientPromise = client.connect()
-  console.log("Database Connection Successfull!!!")
-}
+  logger.info("Database Connection Successfull!!!")
 
 export default clientPromise
